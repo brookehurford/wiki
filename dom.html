@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="css/styles.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>DOM Manipulation and Traversal</title>
+  </head>
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <a class="navbar-brand text-muted" href="index.html">A &amp; B Wiki</a>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h1 id="pageTitle">DOM Manipulation and Traversal</h1>
+      <hr>
+      <h3>Definition</h3>
+      <p>
+        DOM is the Document Object MOdel. It provides a structured representation of the document (a tree) and it defines a way that the structure can be accessed from programs so that they can change the document structure, style and content. It can be manipulated in jQuery using different methods.
+      </p>
+    </div>
+    <div class="codeExample code">
+      <div class="container">
+        <h3>Code Example</h3>
+        <div class="monospace">
+          <p>$(document).ready(function(){</p>
+          <p class="tab">$("button#flowerButton").click(function(){</p>
+          <p class="tab"><span class="tab">$("ul.unstyled").append('&#60;img src="img/flower.jpg"&#62;
+');</p>
+          <p class="tab">});</p>
+          <p>});</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h3>Example</h3>
+      <button id="flowerButton" class="btn btn-default">Show me the flowers!</button>
+      <ul class="unstyled"></ul>
+    </div>
+    <div class="footer">
+      <hr>
+      <div class="container">
+        <div class="footer-content">
+          <p>&copy; 2016 Anna Becker &amp; Brooke Hurford</p>
+        </div>
+      </div>
+    </div>
+</div>
+
+  </body>
+</html>

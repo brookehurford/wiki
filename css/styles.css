@@ -121,6 +121,13 @@ p {
   border: 3px solid blue;
 }
 
+/* Forms
+==================*/
+
+#yourInfo {
+  display: none;
+}
+
 
 /* Footer
 ========================*/
