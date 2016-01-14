@@ -1,0 +1,51 @@
+.navigation {
+  text-align: center;
+  background-color: #00CCA0;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 2px;
+  margin: 20px;
+  font-size: 18px;
+}
+
+.mkdwnList {
+  list-style: none;
+  font-family: monospace;
+}
+
+.codeExample {
+  background-color: #f1f1f1;
+}
+
+.code {
+  line-height: 80%;
+}
+
+.monospace {
+  font-family: monospace;
+}
+
+h3 {
+  text-align: center;
+}
+
+#pageTitle {
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+}
+
+.tab {
+  margin-left: 40px;
+}
+
+/* Footer
+========================*/
+
+.footer-content {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 13px;
+}
