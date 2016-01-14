@@ -9,6 +9,16 @@
     <title>Inline Elements</title>
   </head>
   <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <a class="navbar-brand text-muted" href="index.html">A &amp; B Wiki</a>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+          </ul>
+        </div>
+      </div>
+    </div>
+
     <div class="container">
       <h1 id="pageTitle">Inline Elements</h1>
       <hr>
@@ -28,7 +38,8 @@
           <p class="tab">&lt;/head&gt;</p>
           <p class="tab">&lt;body&gt;</p>
           <p class="tab"><span class="tab">&lt;h1&gt;This is a h1 Header&lt;/h1&gt;</p>
-          <p class="tab"><span class="tab">&lt;p&gt;Lorem ipsum &lt;strong&lt;dolor&lt;/strong&lt; sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;</p>
+          <p class="tab"><span class="tab">&lt;p&gt;Lorem ipsum &lt;strong&gt;dolor&lt;/strong&gt; sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis &lt;em&gt;nostrud&lt;/em&gt; exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;</p>
+          <p class="tab"><span class="tab">&lt;img src="img/kitten.jpg" alt="A picture of a really cute kitten."&gt;
           <p class="tab">&lt;/body&gt;</p>
           <p>&lt;/html&gt;</p>
         </div>
@@ -39,12 +50,13 @@
       <h3>Example</h3>
       <h1>This is a h1 Header</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Lorem ipsum <strong>dolor</strong> sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <em>nostrud</em> exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       </p>
+      <img src="img/kitten.jpg" alt="A picture of a really cute kitten.">
     </div>
     <div class="footer">
-      <div class="container">
       <hr>
+      <div class="container">
         <div class="footer-content">
           <p>&copy; 2016 Anna Becker &amp; Brooke Hurford</p>
         </div>

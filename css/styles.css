@@ -1,3 +1,28 @@
+.container {
+  width: 80%;
+}
+
+h3 {
+  text-align: center;
+}
+
+.tab {
+  margin-left: 40px;
+}
+
+a {
+    display: block;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+/* Homepage
+==================*/
+
 .navigation {
   text-align: center;
   background-color: #00CCA0;
@@ -8,9 +33,18 @@
   font-size: 18px;
 }
 
-.mkdwnList {
-  list-style: none;
-  font-family: monospace;
+.navigation:hover {
+  color: white;
+  background-color: #0B7F67;
+}
+
+
+/* Sub Pages
+==================*/
+
+#pageTitle {
+  text-align: center;
+  padding-top: 70px;
 }
 
 .codeExample {
@@ -25,22 +59,24 @@
   font-family: monospace;
 }
 
-h3 {
-  text-align: center;
+.mkdwnList {
+  list-style: none;
+  font-family: monospace;
 }
 
-#pageTitle {
-  text-align: center;
+/* CSS Page
+==================*/
+#cssHeader {
+  font-style: italic;
 }
 
-.container {
-  width: 80%;
+#cssP {
+  background-color: yellow;
 }
 
-.tab {
-  margin-left: 40px;
+#cssImage {
+  width: 20%;
 }
-
 /* Footer
 ========================*/
 
