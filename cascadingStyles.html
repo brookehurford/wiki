@@ -7,7 +7,7 @@
     <script src="js/jquery-1.12.0.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
-    <title>CSS</title>
+    <title>Cascading Style</title>
   </head>
   <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -21,27 +21,25 @@
     </div>
 
     <div class="container">
-      <h1 id="pageTitle">CSS</h1>
+      <h1 id="pageTitle">Cascading Styles</h1>
       <hr>
       <h3>Definition</h3>
       <p>
-        Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language.
+        This means that in your CSS stylesheet, a rule that is more specific will take precedence over less specific rules to the same element.
       </p>
     </div>
     <div class="codeExample code">
       <div class="container">
         <h3>Code Example</h3>
         <div class="monospace">
-          <p>h2 &#123;</p>
-          <p class="tab">font-style: italic;</p>
-          <p>&#125;</p>
-          <br>
           <p>p &#123;</p>
-          <p class="tab">background-color: yellow;</p>
+          <p class="tab">border: 5px solid yellow;</p>
           <p>&#125;</p>
-          <br>
-          <p>img &#123;</p>
-          <p class="tab">width: 20&#37;</p>
+          <p>p.important &#123;</p>
+          <p class="tab">border: 5px solid green;</p>
+          <p>&#125;</p>
+          <p>p.more .important &#123;</p>
+          <p class="tab">border: 5px solid blue;</p>
           <p>&#125;</p>
         </div>
       </div>
@@ -49,11 +47,11 @@
 
     <div class="container">
       <h3>Example</h3>
-      <h2 id="cssHeader">This is a Header</h2>
-      <p id="cssP">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      <h1>This is a h1 Header</h1>
+      <p id="cascP">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       </p>
-      <img src="img/kitten.jpg" alt="A picture of a really cute kitten." id="cssImage">
+      <img src="img/kitten.jpg" alt="A picture of a really cute kitten.">
     </div>
     <div class="footer">
       <hr>

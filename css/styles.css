@@ -1,9 +1,14 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
 .container {
   width: 80%;
 }
 
 h3 {
   text-align: center;
+  padding-bottom: 10px;
 }
 
 .tab {
@@ -20,6 +25,9 @@ a:hover {
     color: white;
 }
 
+p {
+  font-size: 16px;
+}
 /* Homepage
 ==================*/
 
@@ -49,10 +57,13 @@ a:hover {
 
 .codeExample {
   background-color: #f1f1f1;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .code {
-  line-height: 80%;
+  line-height: 90%;
 }
 
 .monospace {
@@ -62,6 +73,11 @@ a:hover {
 .mkdwnList {
   list-style: none;
   font-family: monospace;
+}
+
+#defImg {
+  display: block;
+  margin: auto;
 }
 
 /* CSS Page
@@ -77,6 +93,35 @@ a:hover {
 #cssImage {
   width: 20%;
 }
+
+/* Divs and Spans Page
+==================*/
+.serif {
+  font-family: serif;
+}
+
+.red {
+  color: red;
+}
+
+/* Floats and Box Models
+==================*/
+
+#floatImg {
+  float: right;
+  margin: 15px;
+  border: 3px solid pink;
+  padding: 5px;
+}
+
+/* Cascading Styles
+==================*/
+
+#cascP {
+  border: 3px solid blue;
+}
+
+
 /* Footer
 ========================*/
 
