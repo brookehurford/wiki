@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="css/styles.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Branching</title>
+  </head>
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <a class="navbar-brand text-muted" href="index.html">A &amp; B Wiki</a>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h1 id="pageTitle">Branching</h1>
+      <hr>
+      <h3>Definition</h3>
+      <p>Branching is used in jQuery to add logic to pages and forms.</p>
+    </div>
+    <div class="codeExample code">
+      <div class="container">
+        <h3>Code Example</h3>
+        <div class="monospace">
+          <p>$(document).ready(function(){</p>
+          <p class="tab">$("button#flowerButton").click(function(){</p>
+          <p class="tab"><span class="tab">$("ul.unstyled").append('&#60;img src="img/flower.jpg"&#62;
+');</p>
+          <p class="tab">});</p>
+          <p>});</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h3>Example</h3>
+      <p>Tell us your age, and we'll give you a fun activity that you'd like!</p>
+      <form id="activities">
+        <div class="form-group">
+          <label for="userAge">Your age</label>
+          <input id="userAge" type="text">
+        </div>
+        <button type="submit" class="btn">Submit!</button>
+      </form>
+
+      <div class="playground">
+        <p>We think you'd enjoy an afternoon at the Imagination Station!</p>
+        <img src="img/playground.jpg" alt="Picture of a playground">
+      </div>
+
+      <div class="bar">
+        <p>We think you'd enjoy a night at Punchbowl Social!</p>
+        <img src="img/bar.png" alt="Picture of a bar">
+      </div>
+
+      <div class="museum">
+        <p>We think you'd enjoy an afternoon at the Portland Art Museum!</p>
+        <img src="img/museum.jpg" alt="Picture of a museum">
+      </div>
+    </div>
+
+    <div class="footer">
+      <hr>
+      <div class="container">
+        <div class="footer-content">
+          <p>&copy; 2016 Anna Becker &amp; Brooke Hurford</p>
+        </div>
+      </div>
+    </div>
+</div>
+
+  </body>
+</html>

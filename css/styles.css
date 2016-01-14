@@ -128,6 +128,27 @@ p {
   display: none;
 }
 
+/* Attributes
+==================*/
+.green-text {
+  color: green;
+}
+
+.yellow-text {
+  color: yellow;
+}
+
+.red-text {
+  color: red;
+}
+
+/* Branching
+==================*/
+
+.playground, .bar, .museum {
+  display:none;
+}
+
 
 /* Footer
 ========================*/
