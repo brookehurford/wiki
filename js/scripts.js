@@ -40,15 +40,15 @@ $(document).ready(function(){
     debugger;
     var userAge = $("input#userAge").val()
 
+//Put else if and else tags next to previous, closing curly brackt. Very creative!//
     if (userAge <= 20){
      $(".playground").show();
-     }
-     else if (userAge >= 21 && userAge <= 35) {
+     } else if (userAge >= 21 && userAge <= 35) {
       $(".bar").show();
-     }
-     else {
+     } else {
      $(".museum").show();
      }
+
   event.preventDefault();
   });
 });
